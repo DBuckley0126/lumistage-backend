@@ -2,10 +2,10 @@
   "name": "lumistage-backend",
   "version": "1.0.0",
   "description": "Synchronise music streaming services to your mood lights",
-  "main": "app.js",
+  "main": "src/server/app.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/_mocha ./test/**/*.test.js",
-    "start": "nodemon src/server/index.js",
+    "start": "nodemon src/server/app.js",
     "lint": "eslint ./src --fix",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
     "precommit": "lint-staged",
