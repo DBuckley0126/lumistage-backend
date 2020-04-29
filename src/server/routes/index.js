@@ -4,7 +4,6 @@ const indexControllers = require("../controllers/index");
 
 const router = new Router();
 
-
 router.get("/", indexControllers.index);
 
 router.get("/", async ctx => {
